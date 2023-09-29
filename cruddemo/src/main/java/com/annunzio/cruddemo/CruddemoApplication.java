@@ -12,7 +12,7 @@ public class CruddemoApplication {
 		SpringApplication.run(CruddemoApplication.class, args);
 	}
 
-	//Executed after beans are loaded
+	//Executed after beans are loaded into app context
 	@Bean
 	public CommandLineRunner commandLineRunner(){
 		return runner -> {
